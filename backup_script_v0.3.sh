@@ -23,8 +23,7 @@ mkdir -p $output_dir
 # Create archive for each selected directory
 for dir in "${dirs[@]}"; do
   if [ -d "$dir" ]; then
-    #tar -cvf "$output_dir/${dir//\//_}.tar" "$dir"
-    tar -cvf "${dir//\//_}.tar" "$dir"
+    tar -cvf "$output_dir/${dir//\//_}.tar" "$dir"
   else
     echo "Error: $dir does not exist or is not a directory"
   fi
