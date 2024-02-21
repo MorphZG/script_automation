@@ -3,7 +3,7 @@
 # Check if the script is run with any argument, otherwise ask for input
 if [ "$1" ]; then
   # Predefined array of paths to backup
-  dirs=("/home/zoran/coding_documents/" "/home/zoran/Documents/" "/home/zoran/.dotfiles/")
+  dirs=("/home/zoran/coding/" "/home/zoran/Documents/" "/home/zoran/.dotfiles/")
   echo "Backing up these directories..."
   sleep 2;
   # Print the directories being backed up

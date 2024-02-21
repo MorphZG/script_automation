@@ -4,4 +4,4 @@
 # Backup save files
 # Baldur's Gate and Pillars of Eternity, 
 
-tar -cvf save_games.tar "/home/zoran/.local/share/Baldur's Gate - Enhanced Edition" "/home/zoran/.local/share/PillarsOfEternity"
+tar -cvf save_games.tar "/home/zoran/.local/share/Baldur's Gate - Enhanced Edition" "/home/zoran/.local/share/PillarsOfEternity" "/home/zoran/.local/share/PillarsOfEternityII"
