@@ -1,3 +1,9 @@
+"""
+Automates the environment setup for the following github repository: 
+    - https://github.com/MorphZG/work_schedule_app.git
+
+
+"""
 import os
 import subprocess
 import sys
@@ -64,8 +70,8 @@ LOCALHOST="mongodb://127.0.0.1:<port_number>/<db_name>"
     print_message("Setup Complete!")
     print("1. To start the backend server: cd backend && npm run dev")
     print("2. To start the frontend server: cd frontend/vite-project && npm run dev")
-    print("3. Frontend: http://localhost:5173")
-    print("4. Backend: http://localhost:3000")
+    print("3. Frontend: http://localhost:4000")
+    print("4. Backend: http://localhost:5000")
 
 if __name__ == "__main__":
     main()
